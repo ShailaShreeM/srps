@@ -1,0 +1,544 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%
+}
+#nav{
+    width: 91%;
+    height: 5.6vh;
+    margin-left: 1rem;
+    background-color: rgb(205, 211, 209);
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding: 0 0 0 2rem;
+    border-radius: 3rem;
+    gap: 2.2rem;
+    font-size: 1rem;
+}
+.resize img{
+  width: 55px;
+  height: 55px;
+  position: absolute;
+   margin-left: 1.5rem;
+   margin-top: -1.4rem;
+}
+#nav h4{
+    margin-left: 20rem;
+    justify-content: space-between;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem ;
+}
+ span {
+    margin-left: 17.5rem;
+   
+}
+
+#nav1{
+    width: 100%;
+    height: 80vh;
+    margin-top: 1.7rem;
+    /* background-color: aquamarine; */
+    position: relative;
+}
+#nav1 img{
+    object-fit:fill;
+    width: 100%;
+    height: 105%;
+}
+ #nav1  h1{
+    display: flex;
+    font-weight: 800;
+    font-size: 3.5rem;
+   padding: 1rem 0 0 2rem ;
+    
+ }
+ #nav1 h1 {
+    width: 36%;
+    height: 80%;
+    position: absolute;
+    background-color: rgba(17, 16, 16, 0.726);
+    border-radius: 16px;
+    color: white;
+    bottom: 0;
+    right: 0;
+    top:2.5rem;
+    margin-right: 2.4rem;
+ }
+ #nav1 h5{
+    display: flex;
+    width: 36%;
+    height: 80%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: white;
+    bottom: 0;
+    right: 0;
+    top:16rem;
+    font-size: 0.95rem;
+    margin-right: 2.2rem;
+   padding: 1rem 0 0 2rem ;
+ }
+ #nav1 h4{
+    display: flex;
+    width: 15%;
+    height: 9%;
+    border:1.9px solid rgba(240, 235, 237, 0.856);
+    /* background-color: rgba(235, 5, 93, 0.856) ; */
+
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 545;
+    border-radius: 6px;
+    color:white;
+    bottom: 0;
+    right: 0;
+    top:21rem;
+    margin-right: 19rem;
+   padding: 1rem 1rem 2rem 3.2rem ;
+   font-size: 0.9rem;
+ 
+ }
+
+ #nav1 h4:hover{
+    background-color:rgba(235, 5, 93, 0.856) ;
+    color:black;
+    border:1.9px solid rgba(238, 6, 99, 0.856);
+ }
+ #nav1 h6{
+    height: 9%;
+    display: flex;
+    width: 15%;
+    border:1px solid rgba(250, 247, 248, 0.856);
+    /* background-color: rgba(235, 5, 93, 0.856) ; */
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 545;
+    border-radius: 6px;
+    color: #faf4f4;
+    bottom: 0;
+    right: 0;
+    top:21rem;
+    margin-right: 5.2rem;
+   padding: 1rem 1rem 2rem 4rem ;
+   font-size: 0.9rem;
+ 
+ }
+ #nav1 h6:hover{
+    background-color:rgba(235, 5, 93, 0.856) ;
+    color:black;
+    border:1.9px solid rgba(235, 5, 93, 0.856);
+ }
+
+ #page2{
+    width:100%;
+    height:143%;
+     background-color: #faf4f7; 
+    
+    
+ }
+ #center {
+    
+    /* background-color: antiquewhite; */
+    padding-left: 15.5rem;
+    padding-top: 15rem;
+    top:4rem;
+    
+    
+ }
+ #center h2{
+    font-size: 3rem;
+    color: rgba(240, 75, 157, 0.863);
+    line-height: 5rem;
+ }
+ #center2 p{
+   width: 50%;
+    font-size: 2.6rem;
+    font-weight: 550;
+    padding-left: 5rem;
+    display: flex;
+    text-align: center;
+    
+ }
+
+#img{
+   
+   padding-left: 50rem;
+   margin-top:-27rem;
+   object-fit: fill;
+   border-radius: 12rem;
+}
+#page3{
+   width: 100%;
+   height: 100%;
+   background-color:#faf4f4;
+}
+#text{
+   padding: 6rem;
+   margin-left: -4rem;
+   line-height: 2.5rem;
+}
+#col{
+   width: 100%;
+   height: 39%;
+   margin-top: -6.2rem;
+   /* background-color: aquamarine; */
+   padding: 1rem;
+   display: flex;
+   justify-content: space-evenly;  
+   
+}
+#col1{
+   width: 32%;
+   height: 100%;
+   /* background-color: red; */
+   background-image: url(https://blog.starmeup.com/wp-content/uploads/2021/06/empowering-leadership-3.png);
+background-position: -3rem;
+background-size: 33.55rem;
+border-radius: 0.7rem; 
+
+}
+#col2{
+   width: 32%;
+   height: 100%;
+   /* background-color: rgb(20, 19, 19);   */
+background-repeat: no-repeat;
+
+   background-image: url(https://cdni.iconscout.com/illustration/premium/thumb/online-business-idea-5194538-4341374.png);
+   background-size: 21rem;
+   border-radius: 0.7rem; 
+}
+#col3{
+   width: 32%;
+   height: 100%;
+   /* background-color: rgb(117, 107, 107);  */
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQARAI3AtDyfikKr1a2j3TaXrW3PDWCIHJYHQHy2OwtWv4gO-DXv06AUtZi-EyPOnWbYy0&usqp=CAU);
+background-repeat: no-repeat;
+background-size: 26.5rem;
+border-radius: 0.7rem; 
+}
+
+#row{
+   width: 100%;
+   height: 30%;
+   /* background-color: blue; */
+   margin-top: -1rem;
+   padding: 1rem;
+   display: flex;
+   justify-content: space-evenly;  
+}
+#row1{
+   width: 32%;
+   height: 114%;
+   background-color: rgba(189, 182, 182, 0.26);
+   margin-top: -0.9rem;
+   padding: 1.4rem;
+
+}
+#row1 h5{
+   line-height: 2.2rem;
+   font-size: 1rem; 
+}
+#row1 p{
+   margin-top: 1rem;
+   font-size: 1.1rem;
+}
+#row1 h2{
+   font-size: 2.1rem;
+}
+
+
+#row1 h6 {
+   margin-top: 2rem;
+   font-size: 0.8rem;
+   margin-top: 1.2rem;
+}
+#row2{
+   width: 32%;
+   height: 114%;
+   background-color: rgba(189, 182, 182, 0.26);
+   margin-top: -0.9rem;
+   padding: 1.4rem;
+}
+#row2 h5{
+   line-height: 2.2rem;
+   font-size: 1rem; 
+}
+#row2 p{
+   margin-top: 1rem;
+   font-size: 1.1rem;
+}
+#row2 h2{
+   font-size: 2.1rem;
+}
+
+
+#row2 h6 {
+   margin-top: 2rem;
+   font-size: 0.8rem;
+   margin-top: 2.3rem;
+}
+
+#row3{
+   width: 32%;
+   height: 114%;
+   background-color: rgba(189, 182, 182, 0.26);
+   margin-top: -0.9rem;
+   padding: 1.4rem;
+}
+#row3 h5{
+   line-height: 2.2rem;
+   font-size: 1rem; 
+}
+#row3 p{
+   margin-top: 1rem;
+   font-size: 1.1rem;
+}
+#row3 h2{
+   font-size: 2.1rem;
+}
+
+
+#row3 h6 {
+   margin-top: 2rem;
+   font-size: 0.8rem;
+   margin-top: 2.3rem;
+}
+#page4{
+   width: 100%;
+   height: 80%;
+   background-color: #faf4f4;
+   margin-top: -3.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#p1{
+   width: 50%;
+   height: 100%;
+   background-color: white;
+  
+}
+#p1 img {
+   border-radius: 50%;
+   width: 25%;
+   height: 22%;
+   margin-top: 12rem;
+   margin-left: 16rem; 
+}
+#p2{
+   width: 50%;
+   height: 100%;
+   background-color:rgba(189, 182, 182, 0.288);
+}
+#p2 img {
+   border-radius: 50%;
+   width: 25%;
+   height: 22%;
+   object-fit: cover;
+   margin-top: 12rem;
+   margin-left: 16rem; 
+   
+}
+#tx1 {
+margin-left: 12rem;
+margin-top: 1.2rem;
+font-size: 1rem;
+line-height: 2rem;
+}
+
+#tx1 h5{
+   margin-top: 0.6rem;
+   margin-left: 8rem;
+   color: rgb(156, 144, 144);
+}
+#tx2 {
+   margin-left: 2rem;
+   margin-top: 1.2rem;
+   font-size: 1rem;
+   line-height: 2rem;
+   text-align: center;
+   }
+   
+   #tx2 h5{
+      margin-top: 0.6rem;
+      margin-left: -1rem;
+      color: rgb(156, 144, 144);
+   }
+#page5{
+   width: 100%;
+   height: 35%;
+   background-color: rgb(243, 200, 183);
+   margin-top: -2rem;
+   position: relative;
+}
+#p{
+   width: 70%;
+   height: 60%;
+   background-color: rgb(248, 236, 236);
+   padding: 1rem ;
+   align-items: center;
+   margin-left: 12rem;
+   position: absolute;
+   margin-top: 4rem;
+   border-radius: 2rem;
+} 
+#p h1{
+   padding: 1rem;
+margin-left: 17rem;
+line-height: 0.2rem;
+}
+#p h5{
+   padding: 1rem;
+margin-left: 21rem;
+}
+#button{
+   padding: 1.3rem;
+margin-left: 23rem;
+margin-top: 1rem;
+width: 15%;
+height: 1%;
+background-color: rgb(241, 128, 128);
+border-radius: 0.4rem;
+align-items: center;
+justify-content: center;
+line-height: 0rem;
+text-align: center;
+justify-items: center;
+
+}
+
+#page6  {
+   width: 100%;
+   height: 60%;
+   /* background-color: aqua; */
+   display: flex;
+   position: relative;
+   
+}
+#page6 pg{
+   display: flex;
+   flex-direction: column;
+   
+   
+}
+.pg1{
+width: 60%;
+height: 80%;
+/* background-color: blue; */
+position: absolute; 
+display: flex;
+gap: 6rem;
+padding: 4rem;
+line-height: 2rem;
+}
+
+.pg1 h2{
+ font-size: 0.9rem;
+ line-height: 1.4rem;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.pg1 h4{
+font-size: 1rem;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pg1 h3{
+   font-size: 1rem;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .pg1 h5{
+      font-size: 1rem;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+.pg2{
+   width: 43%;
+   height: 80%;
+   /* background-color: rgb(34, 94, 6); */
+position: absolute;
+margin-left: 48rem;
+padding: 4rem;
+line-height: 2.1rem;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pg2 h3{
+   font-size: 1.1rem;
+}
+.pg2 h5{
+   font-size: 0.9rem;
+   line-height: 2.5rem;
+}
+#em{
+   display: flex;
+   position: relative;
+}
+#em input{
+margin: 0.4rem;
+height: 6vh;
+width: 55%;
+position: absolute;
+}
+
+#em h5{
+ width: 37%;
+ height: 6vh;
+ background-color: hsl(330, 83%, 53%);
+ margin-left: 16.5rem;
+ position: absolute;
+ margin-top: 0.4rem;
+ text-align: center;
+ border-radius: 0.3rem;
+ 
+}
+#pg p{
+   font-size: 0.8rem;
+   margin-top: 4rem;
+   font-weight: 500;
+   
+}
+#line{
+ padding: 3rem;
+ display: flex;
+ position: relative;
+ margin-top: 22rem ;
+ border-top: 2px solid #000;
+ margin-left: 6rem;
+ gap:1rem;
+}
+#icon{
+   font-size: 0.8rem;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 600;
+margin-left: -2rem;
+}
+#line h5{
+   font-size: 0.8rem;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 600;
+}
+#line h4{
+   font-size: 0.8rem;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 600;
+}
+#line h6{
+   font-size: 0.8rem;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 600;
+}
+
+#ics i{
+   font-size: 1.2rem;
+   justify-content: space-between;
+   margin-left: 0.8rem;
+}
+
+#newsletter{
+   padding: 10px;
+}
